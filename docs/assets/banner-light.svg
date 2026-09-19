@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="proton-pass - A password manager that tells you when you are the weak link.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/><stop offset="0.55" stop-color="#eaf1fb"/><stop offset="1" stop-color="#eaf1fb"/>
+    </linearGradient>
+    <radialGradient id="g1" cx="0.14" cy="0.1" r="0.66">
+      <stop offset="0" stop-color="#0284c7" stop-opacity="0.20"/><stop offset="1" stop-color="#0284c7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="0.9" cy="0.95" r="0.7">
+      <stop offset="0" stop-color="#4f46e5" stop-opacity="0.20"/><stop offset="1" stop-color="#4f46e5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0284c7"/><stop offset="1" stop-color="#4f46e5"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#c9dcf0" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <rect width="1200" height="300" fill="url(#g1)"/>
+  <rect width="1200" height="300" fill="url(#g2)"/>
+
+  <g transform="translate(80,80)">
+    <rect width="140" height="140" rx="34" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+    <g transform="translate(20,20) scale(1.0)"><path d="M50 22 L74 32 V52 C74 66 62 76 50 80 C38 76 26 66 26 52 V32 Z" fill="none" stroke="#0284c7" stroke-width="7" stroke-linejoin="round"/><circle cx="50" cy="50" r="6" fill="#0284c7" stroke="none"/><path d="M50 56 V64" stroke="#0284c7" stroke-width="6" stroke-linecap="round"/></g>
+  </g>
+
+  <text x="258" y="140" font-family="Segoe UI, system-ui, sans-serif" font-size="52" font-weight="700" letter-spacing="1.5" fill="#0b1626">proton-pass</text>
+  <rect x="260" y="166" width="640" height="1.6" fill="#c9dcf0"/>
+  <text x="260" y="196" font-family="Segoe UI, system-ui, sans-serif" font-size="16.5" fill="#5c7594">A password manager that tells you when you are the weak link.</text>
+
+  <g font-family="Segoe UI, system-ui, sans-serif" font-size="13" font-weight="600" fill="#12406e">
+    <rect x="260" y="232" width="92" height="32" rx="16" fill="#ffffff" stroke="#bcd4ee"/>
+    <text x="306" y="253" text-anchor="middle">React 19</text>
+    <rect x="364" y="232" width="108" height="32" rx="16" fill="#ffffff" stroke="#bcd4ee"/>
+    <text x="418" y="253" text-anchor="middle">Next.js 15</text>
+    <rect x="484" y="232" width="100" height="32" rx="16" fill="#ffffff" stroke="#bcd4ee"/>
+    <text x="534" y="253" text-anchor="middle">Express 5</text>
+    <rect x="595" y="232" width="108" height="32" rx="16" fill="#ffffff" stroke="#bcd4ee"/>
+    <text x="649" y="253" text-anchor="middle">PostgreSQL</text>
+    <rect x="715" y="232" width="83" height="32" rx="16" fill="#ffffff" stroke="#bcd4ee"/>
+    <text x="757" y="253" text-anchor="middle">Drizzle</text>
+  </g>
+
+  <g transform="translate(940,72)">
+    <rect x="0" y="0" width="180" height="34" rx="17" fill="#ffffff" stroke="#bcd4ee"/>
+    <circle cx="24" cy="17" r="5" fill="#0284c7"/>
+    <text x="40" y="22" font-family="Segoe UI, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#12406e">proton-pass</text>
+  </g>
+
+  <rect x="0" y="297" width="1200" height="3" fill="url(#mark)" opacity="0.55"/>
+</svg>
